@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.tuvalutorture.iconfix</string>
+	<key>RDPxlPackageFiles</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<string>/Library/MicroInjector/DynamicLibraries/IconFix.dylib</string>
+			<key>overwrite</key>
+			<false/>
+			<key>permanent</key>
+			<false/>
+			<key>executable</key>
+			<true/>
+			<key>source</key>
+			<string>instroot/Library/MicroInjector/DynamicLibraries/IconFix.dylib</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<string>/Library/MicroInjector/DynamicLibraries/IconFix.plist</string>
+			<key>overwrite</key>
+			<false/>
+			<key>permanent</key>
+			<false/>
+			<key>source</key>
+			<string>instroot/Library/MicroInjector/DynamicLibraries/IconFix.plist</string>
+		</dict>
+	</array>
+	<key>RDPxlPackageName</key>
+	<string>IconFix</string>
+	<key>RDPxlPackageVersion</key>
+	<string>0.0.1</string>
+	<key>RDPxlPackageDesc</key>
+	<string>Fix for the icon being displayed on the right if only one icon is present in a row for iPhone OS 1 (tested on 1.1)</string>
+	<key>RDPxlPackageFormat</key>
+	<string>1</string> 
+</dict>
+</plist>
